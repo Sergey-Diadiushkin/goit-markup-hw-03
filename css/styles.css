@@ -71,6 +71,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 .description {
   font-weight: 400;
@@ -96,6 +97,8 @@ img {
   line-height: 42px;
   letter-spacing: 0.03em;
   color: var(--title-light-theme-colour);
+  text-align: center;
+  margin-bottom: 50px;
 }
 .position {
   font-family: var(--main-font);
@@ -105,6 +108,7 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--title-light-theme-colour);
+  padding-bottom: 30px;
 }
 .name {
   font-family: var(--main-font);
@@ -113,6 +117,8 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--title-light-theme-colour);
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .footer-navigation-list-item {
   font-family: var(--main-font);
@@ -120,7 +126,7 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  /* color: #ffffff; */
+  color: #ffffff;
 }
 .footer-navigation-list-link,
 .footer-tel-link {
@@ -129,7 +135,7 @@ img {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  /* color: rgba(255, 255, 255, 0.6); */
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .potfolio-btn {
@@ -212,7 +218,7 @@ img {
 .hero {
   background-color: #2f303a;
   height: 600px;
-  margin-bottom: 40px;
+  margin-bottom: 94px;
 }
 
 .hero .container {
@@ -230,11 +236,62 @@ img {
   padding-bottom: 30px;
 }
 /* =================qualitys============= */
-
-.container .qualitys-item {
+.qualitys .container {
   display: flex;
   width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  margin-bottom: 94px;
 }
-.qualitys-item:not(:last-child) {
+.qualitys-list {
+  display: flex;
+}
+.qualitys-list-item:not(:last-child) {
   margin-right: 30px;
 }
+
+/* ==============Чем мы занимаемься========== */
+.container .about-list {
+  display: flex;
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  margin-bottom: 94px;
+}
+.about-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+/* ================our command=============== */
+.command .container {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.names-list {
+  display: flex;
+  margin-bottom: 94px;
+}
+.names-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+/* ====================footer================== */
+
+.footer .container {
+  width: 1200px;
+  height: 252px;
+}
+.footer-logo-color {
+  color: #fff;
+}
+.footer {
+  background-color: #2f303a;
+}
+.footer-list {
+  display: block;
+}
+.footer-navigation-item {
+  display: block;
+}
+.logo-navigation-list-link {
+  display: block;
