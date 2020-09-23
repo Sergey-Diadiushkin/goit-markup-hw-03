@@ -227,10 +227,13 @@ img {
   width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
-  margin-bottom: 94px;
+  /* margin-bottom: 94px; */
 }
 .about-list-item:not(:last-child) {
   margin-right: 30px;
+}
+.about {
+  margin-bottom: 94px;
 }
 
 /* ================our command=============== */
@@ -261,6 +264,9 @@ img {
   text-align: center;
   padding-top: 94px;
   padding-bottom: 50px;
+}
+.names-list-item {
+  background-color: #fff;
 }
 /* ====================footer================== */
 
